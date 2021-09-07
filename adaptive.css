@@ -1,0 +1,52 @@
+@media only screen and (max-width:1330px){
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-a{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:1230px){
+    .amazing-dance, .best-dance{
+        display: none;
+    }
+
+    .dance_class{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:860px){
+    .subscribe{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .navbar-link{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:791px){
+    .col4{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:646px){
+    .col3{
+        margin-top: 50px;
+    }
+
+    .header-setting h1{
+        padding-top: 18%;
+    }
+}
